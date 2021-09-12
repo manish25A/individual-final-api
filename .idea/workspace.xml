@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82208bf5-13e4-4ad7-8a02-96f8e758bce3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/database.js" afterDir="false" />
+    </list>
+    <list id="f5dbac44-9299-40ac-b028-6f7e656290a9" name="adding wrong password limitations" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pjVLb9rBJrCNomHySLBYps6KyK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.10.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.35" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/www" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="www">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82208bf5-13e4-4ad7-8a02-96f8e758bce3" name="Default Changelist" comment="" />
+      <created>1615696431501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615696431501</updated>
+      <workItem from="1615696432589" duration="768000" />
+      <workItem from="1615874126174" duration="1862000" />
+      <workItem from="1615917990942" duration="6914000" />
+      <workItem from="1616043135009" duration="568000" />
+      <workItem from="1616044236937" duration="1412000" />
+      <workItem from="1616055633846" duration="2019000" />
+      <workItem from="1616073880359" duration="5961000" />
+      <workItem from="1616138398373" duration="1612000" />
+      <workItem from="1616167200971" duration="598000" />
+      <workItem from="1616176858020" duration="803000" />
+      <workItem from="1616189949083" duration="14237000" />
+      <workItem from="1616227903310" duration="689000" />
+      <workItem from="1616394804554" duration="621000" />
+      <workItem from="1616513069570" duration="465000" />
+      <workItem from="1616515479814" duration="808000" />
+      <workItem from="1616556394999" duration="466000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated project">
+      <created>1615701199336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615701199336</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding mongoose many to many">
+      <created>1615875160137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615875160137</updated>
+    </task>
+    <task id="LOCAL-00003" summary="connected product and vendor to know which vendor inserted which product">
+      <created>1615960149776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615960149776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="get data by vendor name">
+      <created>1616044788460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616044788460</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added and updated vendor routes and controllers">
+      <created>1616190802540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616190802540</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added limitations">
+      <created>1616515689938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616515689938</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated routes and user models">
+      <created>1616556440622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616556440622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updated project" />
+    <MESSAGE value="adding mongoose many to many" />
+    <MESSAGE value="connected product and vendor to know which vendor inserted which product" />
+    <MESSAGE value="get data by vendor name" />
+    <MESSAGE value="added and updated vendor routes and controllers" />
+    <MESSAGE value="updated gitignore and readme" />
+    <MESSAGE value="added limitations" />
+    <MESSAGE value="updated routes and user models" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated routes and user models" />
+  </component>
+</project>
