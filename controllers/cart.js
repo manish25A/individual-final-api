@@ -31,6 +31,7 @@ exports.getCart = asyncHandler(async (req, res, next) => {
 			res.status(201).json({
 				success: true,
 				data: cartItemDisplay,
+				count: cartItemDisplay.length,
 			});
 		})
 		.catch((err) => {
