@@ -7,6 +7,7 @@ const colors = require('colors');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const createError = require('http-errors');
+const helmet = require('helmet');
 
 dotenv.config({
 	path: './bin/config.env',
@@ -31,7 +32,7 @@ const { urlencoded } = require('express');
 app.use(morgan('dev'));
 var corsOptions = {
 	origin: 'http://localhost:3000',
-	optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+	optionsSuccessStatus: 200,
 };
 
 //using cors for react
@@ -44,7 +45,7 @@ app.use(
 	})
 );
 app.use(cookieParser());
-
+app.use(helmet());
 app.use(cors(corsOptions));
 
 app.use('/customer/auth/', customerRoute);
