@@ -53,10 +53,6 @@ app.use(cookieParser());
 app.use(helmet());
 app.use(cors(corsOptions));
 app.use(expressSanitier());
-app.use("/customer/auth/", csrfProtection, customerRoute);
-app.use("/product", csrfProtection, productRoute);
-app.use("/vendor/auth/", csrfProtection, vendorRoute);
-app.use("/cart/", csrfProtection, cartRoute);
 
 app.use(
   contentSecurityPolicy({
@@ -75,14 +71,12 @@ app.set("trust proxy", 1);
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // limit each IP to 100 requests per windowMs
+  message: "rate limited",
 });
 
 //  apply to all requests
 app.use(limiter);
-// catch 404 and forward to error handler
-app.use(function (req, res, next) {
-  next(createError(404));
-});
+
 // To remove data, use:
 app.use(mongoSanitize());
 
@@ -92,6 +86,15 @@ app.use(
     replaceWith: "_",
   })
 );
+
+app.use("/customer/auth/", customerRoute);
+app.use("/product", csrfProtection, productRoute);
+app.use("/vendor/auth/", csrfProtection, vendorRoute);
+app.use("/cart/", csrfProtection, cartRoute);
+// catch 404 and forward to error handler
+app.use(function (req, res, next) {
+  next(createError(404));
+});
 // error handler
 app.use(function (err, req, res, next) {
   if (err.code !== "EBADCSRFTOKEN") return next(err);
